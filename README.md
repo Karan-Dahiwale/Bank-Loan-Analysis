@@ -104,7 +104,7 @@ To build an **interactive loan analytics dashboard** that tracks:
 ![Bank Loan Summary Dashboard](https://github.com/Karan-Dahiwale/Bank-Loan-Analysis/blob/main/Bank%20Loan%20Report%20(Summery).png)
 
 ### 🔹 Business Overview
-![Loan Overview Visuals](sandbox:/mnt/data/dashboard_page_2.png)
+![Loan Overview Visuals](https://github.com/Karan-Dahiwale/Bank-Loan-Analysis/blob/main/Bank%20Loan%20Report%20(Overview).png)
 
 *(Note: Replace with your Power BI or Tableau dashboard screenshots in your repo folder: `/assets/dashboard_1.png`, `/assets/dashboard_2.png`)*
 
