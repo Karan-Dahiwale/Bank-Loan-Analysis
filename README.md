@@ -101,7 +101,7 @@ To build an **interactive loan analytics dashboard** that tracks:
 ## 📸 6. Screenshots
 
 ### 🔹 Dashboard Summary
-![Bank Loan Summary Dashboard](sandbox:/mnt/data/dashboard_page_1.png)
+![Bank Loan Summary Dashboard](https://github.com/Karan-Dahiwale/Bank-Loan-Analysis/blob/main/Bank%20Loan%20Report%20(Summery).png)
 
 ### 🔹 Business Overview
 ![Loan Overview Visuals](sandbox:/mnt/data/dashboard_page_2.png)
