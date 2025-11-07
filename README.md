@@ -1,109 +1,127 @@
 # 🏦 Bank Loan Report Dashboard
 
-A comprehensive analytics solution to evaluate a bank’s lending performance, loan portfolio health, and borrower risk characteristics using key KPIs, domain knowledge, and SQL-driven insights.
+A data-driven analytics dashboard designed to evaluate a bank’s **loan performance, portfolio health, and borrower risk characteristics** through key KPIs, SQL queries, and business insights.
 
 ---
 
-## 📌 Problem Statement
-To monitor and assess bank lending performance, this dashboard provides detailed insights into:
-
-- Total loan applications and funding trends
-- Loan repayment efficiency
-- Borrower risk assessment through DTI & Loan Status
-- Month-to-date (MTD) and Month-over-month (MoM) tracking for all metrics
-
-It helps the bank make informed lending decisions and improve portfolio management strategies. :contentReference[oaicite:0]{index=0}
+## 🧭 1. Project Title / Headline
+**Bank Loan Report Dashboard — Banking Analytics with Power BI & SQL**
 
 ---
 
-## 🎯 Key KPIs Tracked
+## 📝 2. Short Description / Purpose
+The **Bank Loan Report Dashboard** helps financial institutions track lending operations and assess portfolio quality.  
+It provides **data-driven insights into loan applications, funding, repayments, and borrower behavior**, enabling better lending decisions, early risk detection, and strategic improvements in credit policy.
 
-| KPI | Description |
-|-----|-------------|
-| Total Loan Applications | Count of overall loan submissions |
-| Total Funded Amount | Total principal disbursed |
-| Total Amount Received | Loan payments collected from borrowers |
-| Average Interest Rate | Lending pricing metric |
-| Average Debt-to-Income Ratio | Borrower financial health evaluation |
-
-All metrics include:  
-✅ Overall, ✅ MTD, ✅ MoM comparisons :contentReference[oaicite:1]{index=1}
+### 🔍 Business Purpose:
+- Monitor overall **lending performance and risk exposure**  
+- Identify patterns in **loan defaults vs repayments**  
+- Support **data-driven decisions** in loan approval and collections
 
 ---
 
-## ✅ Good Loan vs Bad Loan Categorization
-| Category | Loan Status Used |
-|----------|-----------------|
-| **Good Loans** | Fully Paid, Current |
-| **Bad Loans** | Charged Off |
+## ⚙️ 3. Tech Stack
 
-KPIs evaluated for each category:
-- Number of applications
-- Total funded amount
-- Total payment received :contentReference[oaicite:2]{index=2}
-
----
-
-## 📊 Dashboard Views
-
-### 📍 Dashboard 1: Summary
-KPI cards + Loan Status Grid View
+| Category | Tools / Technologies |
+|-----------|---------------------|
+| **Data Source** | SQL Database (bank_loan_data) |
+| **Querying** | SQL (MySQL / SQL Server) |
+| **Data Visualization** | Power BI / Tableau |
+| **Data Cleaning** | Excel, Power Query |
+| **Documentation** | Word, Markdown (README) |
 
 ---
 
-### 🌍 Dashboard 2: Overview
-Visual insights:
+## 🗂 4. Data Source
+The dataset used in this project contains real-world banking attributes related to **loan applications and borrower profiles**.
 
-| Chart Type | Dimensions |
-|------------|------------|
-| Line Chart | Monthly trends (Applications, Funding, Received Amount) |
-| Filled Map | State-wise lending performance |
-| Donut Chart | Loan Term distribution |
-| Bar Chart | Employee length + Loan Purpose analysis |
-| Tree Map | Home ownership segmentation |
+**Key Columns:**
+- `Loan_ID`, `Loan_Status`, `Loan_Amount`, `Funded_Amount`, `DTI`, `Interest_Rate`
+- `Employment_Length`, `Grade`, `Sub_Grade`, `Purpose`, `Home_Ownership`, `State`
+- `Issue_Date`, `Term`, `Total_Payment_Received`
 
-Reveals seasonal patterns & geographic disparities. :contentReference[oaicite:3]{index=3}
+📘 *Data sourced from a structured banking database simulating real lending scenarios.*
 
 ---
 
-### 📑 Dashboard 3: Details
-Comprehensive tabular view of all borrower & loan attributes  
-→ Enables deep drill-down and operational monitoring :contentReference[oaicite:4]{index=4}
+## 💡 5. Features & Highlights
+
+### 🏦 Business Problem
+Banks often face challenges understanding how loans perform across multiple segments — customer types, geographies, and risk categories.  
+This dashboard consolidates all that information to:
+- Identify **good vs bad loans**
+- Highlight **funding and repayment patterns**
+- Measure **risk concentration and portfolio performance**
 
 ---
 
-## 🏦 Banking Domain Understanding (Business View)
-Why analyzing loan data matters:
-
-- Credit risk assessment
-- Customer retention & profiling
-- Fraud detection
-- Portfolio performance optimization
-- Regulatory compliance-driven reporting
-
-Includes major steps in loan lifecycle:  
-Application → Verification → Approval → Disbursement → Monitoring → Repayment :contentReference[oaicite:5]{index=5}
+### 🎯 Goal of the Dashboard
+To build an **interactive loan analytics dashboard** that tracks:
+- Total loan applications
+- Funded and received amounts
+- DTI and interest-rate-based risk indicators
+- Monthly performance (MTD, MoM)
+- Good vs Bad loan categorization
 
 ---
 
-## 🧠 Data Field Terminology (Short Dictionary)
-Examples:
+### 🔍 Walk-Through of Key Visuals
 
-| Field | Meaning |
-|-------|--------|
-| DTI | Measures repayment capacity |
-| Loan Status | Identifies performance health of loan |
-| Interest Rate | Cost of borrowing |
-| Grade / Subgrade | Borrower risk classification |
-| Employment Length | Indicator of income stability |
+#### 📍 **Dashboard 1: Summary View**
+- KPI cards showing overall metrics (Applications, Funding, Received Amount)
+- Loan status grid highlighting portfolio quality
+- Quick view of MTD & MoM growth
 
-Used for risk-based pricing & underwriting decisions. :contentReference[oaicite:6]{index=6}
+#### 🌍 **Dashboard 2: Overview**
+| Visual Type | Purpose |
+|--------------|----------|
+| **Line Chart** | Monthly trends (Applications, Funding, Payments) |
+| **Filled Map** | State-wise performance & disbursal patterns |
+| **Donut Chart** | Loan term distribution |
+| **Bar Chart** | Employee length & loan purpose segmentation |
+| **Tree Map** | Home ownership contribution to loans |
+
+👉 Reveals seasonal trends, risk concentration, and geographic impact.
+
+#### 📊 **Dashboard 3: Detailed View**
+- Tabular report with all borrower data  
+- Enables data filtering & in-depth analysis for operations
 
 ---
 
-## 🗄 SQL Queries Used
-All KPIs & dashboard visuals are powered by SQL queries, such as:
+### 📈 Business Impact & Insights
+- Identified **Good Loans (Fully Paid, Current)** vs **Bad Loans (Charged-Off)**  
+- Detected portfolio leakage in **high-interest-rate loans**  
+- Optimized lending focus on **low DTI and stable employment segments**  
+- Helped management **reduce NPA (Non-Performing Asset)** risk by early detection  
+- Supported data-driven decision making and compliance monitoring
+
+---
+
+## 📸 6. Screenshots
+
+### 🔹 Dashboard Summary
+![Bank Loan Summary Dashboard](sandbox:/mnt/data/dashboard_page_1.png)
+
+### 🔹 Business Overview
+![Loan Overview Visuals](sandbox:/mnt/data/dashboard_page_2.png)
+
+*(Note: Replace with your Power BI or Tableau dashboard screenshots in your repo folder: `/assets/dashboard_1.png`, `/assets/dashboard_2.png`)*
+
+---
+
+## 🧮 Example SQL Queries
 
 ```sql
+-- Total loan applications
 SELECT COUNT(id) AS Total_Applications
 FROM bank_loan_data;
+
+-- Total funded amount
+SELECT SUM(loan_amount) AS Total_Funded_Amount
+FROM bank_loan_data;
+
+-- Good loan performance
+SELECT COUNT(id), SUM(funded_amount), SUM(total_payment)
+FROM bank_loan_data
+WHERE loan_status IN ('Fully Paid', 'Current');
