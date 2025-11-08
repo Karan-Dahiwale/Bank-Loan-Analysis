@@ -2,12 +2,12 @@
 
 A data-driven analytics dashboard designed to evaluate a bank’s **loan performance, portfolio health, and borrower risk characteristics** through key KPIs, SQL queries, and business insights.
 
----
+
 
 ## 🧭 1. Project Title / Headline
 **Bank Loan Report Dashboard — Banking Analytics with Power BI & SQL**
 
----
+
 
 ## 📝 2. Short Description / Purpose
 The **Bank Loan Report Dashboard** helps financial institutions track lending operations and assess portfolio quality.  
@@ -18,7 +18,7 @@ It provides **data-driven insights into loan applications, funding, repayments, 
 - Identify patterns in **loan defaults vs repayments**  
 - Support **data-driven decisions** in loan approval and collections
 
----
+
 
 ## ⚙️ 3. Tech Stack
 
@@ -30,7 +30,7 @@ It provides **data-driven insights into loan applications, funding, repayments, 
 | **Data Cleaning** | Excel, Power Query |
 | **Documentation** | Word, Markdown (README) |
 
----
+
 
 ## 🗂 4. Data Source
 The dataset used in this project contains real-world banking attributes related to **loan applications and borrower profiles**.
@@ -42,7 +42,7 @@ The dataset used in this project contains real-world banking attributes related 
 
 📘 *Data sourced from a structured banking database simulating real lending scenarios.*
 
----
+
 
 ## 💡 5. Features & Highlights
 
@@ -53,7 +53,6 @@ This dashboard consolidates all that information to:
 - Highlight **funding and repayment patterns**
 - Measure **risk concentration and portfolio performance**
 
----
 
 ### 🎯 Goal of the Dashboard
 To build an **interactive loan analytics dashboard** that tracks:
@@ -63,7 +62,7 @@ To build an **interactive loan analytics dashboard** that tracks:
 - Monthly performance (MTD, MoM)
 - Good vs Bad loan categorization
 
----
+
 
 ### 🔍 Walk-Through of Key Visuals
 
@@ -87,7 +86,7 @@ To build an **interactive loan analytics dashboard** that tracks:
 - Tabular report with all borrower data  
 - Enables data filtering & in-depth analysis for operations
 
----
+
 
 ### 📈 Business Impact & Insights
 - Identified **Good Loans (Fully Paid, Current)** vs **Bad Loans (Charged-Off)**  
@@ -96,7 +95,7 @@ To build an **interactive loan analytics dashboard** that tracks:
 - Helped management **reduce NPA (Non-Performing Asset)** risk by early detection  
 - Supported data-driven decision making and compliance monitoring
 
----
+
 
 ## 📸 6. Screenshots
 
@@ -111,7 +110,7 @@ To build an **interactive loan analytics dashboard** that tracks:
 
 *(Note: Replace with your Power BI or Tableau dashboard screenshots in your repo folder: `/assets/dashboard_1.png`, `/assets/dashboard_2.png`)*
 
----
+
 
 ## 🧮 Example SQL Queries
 
